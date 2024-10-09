@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: lightcoral;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+p {
+  color: dimgray;
+  margin-bottom: 40px;
+}
+
+.full-width {
+  width: 80%;
+  margin-left: 7%;
+  padding: 5%;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 2%;
+}
+
+.half-width img {
+  width: 85%;
+}
+
+section {
+  height: 650px;
+}
+
+.link-button {
+  background-color: lightcoral;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.link-button-2 {
+  background-color: lightcoral;
+  text-decoration: none;
+  padding: 20px 40px;
+  color: white;
+  border-radius: 5px;
+}
+
+.hero-section {
+  background-image: url("images/header-bg.png");
+}
+
+.biography-section {
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.latest-work-section {
+  background-image: url(images/latest-work-bg.png);
+  background-size: cover;
+  background-position-y: center;
+}
+
+.latest-work-section h2 {
+  text-align: center;
+}
+
+.latest-work-image-div {
+  width: 80%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 8%;
+}
+
+.latest-work-image-div img {
+  width: 30%;
+}
+
+.contact-class {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer {
+  background-image: url("images/footer-bg.png");
+  background-size: cover;
+}
