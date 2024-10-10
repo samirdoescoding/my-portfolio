@@ -1,3 +1,4 @@
+/* basic */
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -19,24 +20,23 @@ p {
   margin-bottom: 40px;
 }
 
-.full-width {
-  width: 80%;
-  margin-left: 7%;
-  padding: 5%;
-}
+/* reusable */
 
 .half-width {
-  width: 40%;
+  width: 45%;
+  height: auto;
   float: left;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .half-width img {
-  width: 85%;
+  width: 100%;
+  height: auto;
+  max-height: 80%;
 }
 
 section {
-  height: 650px;
+  height: 550px;
 }
 
 .link-button {
@@ -48,21 +48,40 @@ section {
 }
 
 .link-button-2 {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 40%;
+  height: 20%;
   background-color: lightcoral;
   text-decoration: none;
-  padding: 20px 40px;
+  padding: 20px 30px;
   color: white;
   border-radius: 5px;
+  margin-top: 5%;
 }
+
+/* section */
 
 .hero-section {
   background-image: url("images/header-bg.png");
+  background-size: cover;
+  padding: 5% 10%;
+}
+
+.hero-section #hero-text {
+  margin-top: 6%;
 }
 
 .biography-section {
+  height: 700px;
   background-image: url("images/biography-bg.png");
-  background-repeat: no-repeat;
   background-size: cover;
+  padding: 5% 10%;
+}
+
+.biography-section #biography-text {
+  margin-top: 10%;
 }
 
 .latest-work-section {
@@ -73,28 +92,43 @@ section {
 
 .latest-work-section h2 {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .latest-work-image-div {
   width: 80%;
-  float: left;
   margin-left: 5%;
-  padding-left: 8%;
+  padding-left: 6.5%;
 }
 
 .latest-work-image-div img {
   width: 30%;
+  margin-right: 2%;
 }
 
 .contact-class {
   text-align: center;
+  padding-bottom: 6%;
+}
+
+.contact-class h2{
+  margin-bottom: 4.5%;
+}
+
+.contact-class .btn-text-1 {
+  font-size: 12px;
+}
+
+.contact-class .btn-text-2 {
+  font-size: 20px;
 }
 
 footer p {
   text-align: center;
+  font-size: 12px;
 }
 
 footer {
   background-image: url("images/footer-bg.png");
-  background-size: cover;
+  background-size: contain;
 }
